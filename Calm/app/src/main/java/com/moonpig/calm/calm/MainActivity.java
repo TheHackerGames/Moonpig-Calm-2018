@@ -21,7 +21,7 @@ public class MainActivity extends AppCompatActivity {
             finish();
             return;
         }
-        setContentView(R.layout.activity_main);
+        setContentView(R.layout.activity_home);
     }
 
     public void sendMessage(View view) {
