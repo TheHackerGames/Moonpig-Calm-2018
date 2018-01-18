@@ -1,10 +1,11 @@
 package com.moonpig.calm.calm;
-import com.moonpig.game.UnityPlayerActivity;
 
 import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.widget.TextView;
+
+import com.moonpig.EMDR.UnityPlayerActivity;
 
 public class DisplayMessageActivity extends AppCompatActivity {
 
