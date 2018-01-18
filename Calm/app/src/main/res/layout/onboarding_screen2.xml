@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:background="#FFFFFF"
+    android:gravity="center_horizontal">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="196dp"
+        android:src="@drawable/calm_headset"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="FULL IMMERSION"
+        android:gravity="center_horizontal"
+        android:textSize="16sp"
+        android:textColor="#00bff1"
+        android:layout_marginTop="43dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="16sp"
+        android:textColor="#545454"
+        android:gravity="center_horizontal"
+        android:text="Some exercises require you to use the Calm Headset™. This allows you to gain full immersion into the exercise."
+        android:layout_marginTop="20dp" />
+
+</LinearLayout>

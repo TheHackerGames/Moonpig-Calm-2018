@@ -3,6 +3,7 @@ import com.moonpig.game.UnityPlayerActivity;
 
 
 import android.content.Intent;
+import android.content.SharedPreferences;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
@@ -14,6 +15,13 @@ public class MainActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+        SharedPreferences preferences =  getSharedPreferences("my_preferences", MODE_PRIVATE);
+        if(!preferences.getBoolean("onboarding_complete",false)) {
+            Intent onboarding = new Intent(this, OnboardingActivity.class);
+            startActivity(onboarding);
+            finish();
+            return;
+        }
         setContentView(R.layout.activity_main);
     }
 

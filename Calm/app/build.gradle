@@ -19,6 +19,8 @@ android {
 }
 
 dependencies {
+    compile 'com.github.navasmdc:MaterialDesign:1.5@aar'
+    compile 'com.ogaclejapan.smarttablayout:library:1.2.1@aar'
     compile(name: 'game', ext: 'aar')
     implementation fileTree(dir: 'libs', include: ['*.jar'])
     implementation 'com.android.support:appcompat-v7:26.1.0'
