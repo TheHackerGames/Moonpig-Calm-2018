@@ -1,0 +1,10 @@
+<component name="libraryTable">
+  <library name="gvr:@aar">
+    <CLASSES>
+      <root url="file://$USER_HOME$/.android/build-cache/fb0c5a9afdc3f88e4ab4d91c1b01e0079c332846/output/res" />
+      <root url="jar://$USER_HOME$/.android/build-cache/fb0c5a9afdc3f88e4ab4d91c1b01e0079c332846/output/jars/classes.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
