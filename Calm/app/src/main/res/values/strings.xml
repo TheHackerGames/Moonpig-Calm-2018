@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">Calm</string>
+    <string name="exercise_description">"<b>"Description:"</b>" Lorem ipsum Donec urna pharetra Fusce in. At amet, nunc id sapien arcu. Ut tincidunt. Nibh consectetur ut placerat aptent ultricies elit. Suspendisse interdum.</string>
 </resources>

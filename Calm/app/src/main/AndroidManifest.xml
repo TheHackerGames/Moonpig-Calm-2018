@@ -20,7 +20,7 @@
         </activity>
         <activity android:name=".DisplayMessageActivity" />
         <activity android:name=".OnboardingActivity" />
-        <activity android:name=".HomeActivity"></activity>
+        <activity android:name=".Exercise"></activity>
     </application>
 
 </manifest>

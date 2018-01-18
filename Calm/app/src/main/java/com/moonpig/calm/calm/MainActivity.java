@@ -24,6 +24,13 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_home);
     }
 
+    public void loadExercise(View view) {
+        Intent intent = new Intent(this, Exercise.class);
+        String message = "sadasd";
+        intent.putExtra(EXTRA_MESSAGE, message);
+        startActivity(intent);
+    }
+
     public void sendMessage(View view) {
         Intent intent = new Intent(this, DisplayMessageActivity.class);
         String message = "sadasd";
