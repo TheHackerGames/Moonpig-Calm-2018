@@ -12,4 +12,11 @@ public class Exercise extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_exercise);
     }
+
+    public void sendMessage(View view) {
+        Intent intent = new Intent(this, DisplayMessageActivity.class);
+        String message = "sadasd";
+        intent.putExtra("lalalal", message);
+        startActivity(intent);
+    }
 }
