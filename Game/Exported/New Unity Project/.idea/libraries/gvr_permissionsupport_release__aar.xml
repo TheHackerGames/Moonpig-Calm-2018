@@ -1,0 +1,10 @@
+<component name="libraryTable">
+  <library name="gvr-permissionsupport-release:@aar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.android/build-cache/f9e8e5190fabc5a427b6668979174b8064723ea5/output/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.android/build-cache/f9e8e5190fabc5a427b6668979174b8064723ea5/output/res" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
