@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
 <resources>
-  <string name="app_name">New Unity Project</string>
+  <string name="app_name">Calm</string>
+  <string name="exercise_description">"<b>"Description:"</b>" In this exercise, you will be guided through the basic exercise that makes up the Calm Technique. This exercise when carried out regularly will help you to develop strategies and coping mechanisms that can be used in your daily life.</string>
 </resources>
