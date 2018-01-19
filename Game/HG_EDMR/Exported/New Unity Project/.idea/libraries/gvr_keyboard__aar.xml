@@ -1,8 +1,8 @@
 <component name="libraryTable">
   <library name="gvr-keyboard:@aar">
     <CLASSES>
-      <root url="jar://$USER_HOME$/.android/build-cache/a4bb06a02361b2d24345a46a58341241a23cbae4/output/jars/classes.jar!/" />
-      <root url="file://$USER_HOME$/.android/build-cache/a4bb06a02361b2d24345a46a58341241a23cbae4/output/res" />
+      <root url="file://$USER_HOME$/.android/build-cache/f2fbaf6518a7c8424dfea48e3610de0abc9441e4/output/res" />
+      <root url="jar://$USER_HOME$/.android/build-cache/f2fbaf6518a7c8424dfea48e3610de0abc9441e4/output/jars/classes.jar!/" />
     </CLASSES>
     <JAVADOC />
     <SOURCES />

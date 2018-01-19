@@ -29,12 +29,11 @@ dependencies {
 }
 
 android {
-	compileSdkVersion 23
+	compileSdkVersion 27
 	buildToolsVersion '27.0.3'
 
 	defaultConfig {
-		targetSdkVersion 23
-//		applicationId 'com.moonpig.EMDR'
+		targetSdkVersion 27
 	}
 
 	lintOptions {
@@ -42,7 +41,7 @@ android {
 	}
 
 	aaptOptions {
-		noCompress '.unity3d', '.ress', '.resource', '.obb'
+		noCompress '.unity3d', '.ress', '.resource', '.obb','bin/data/sharedassets0.resource'
 	}
 
 
